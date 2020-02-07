@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav       nav"
+    "section aside"
+    "footer footer"
+    ;
+    height: 100vh;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+}
+header{
+    background-color: #d23caa;
+    /* déclaration de la zone header */
+    grid-area: header;
+}
+nav{
+    background-color: #caee2a;
+     /* déclaration de la zone header */
+     grid-area: nav;
+
+}
+section{
+    background-color: #00848e;
+    grid-area: section;
+}
+aside{
+    background-color: #01017b;
+    grid-area: aside;
+}
+footer{
+    background-color: #a3b7a3;
+    grid-area: footer;
+}

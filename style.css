@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+
+}
+main{
+    height: 100vh;
+}
+header{
+    background-color: #a8a8a8;
+    height: 15%;
+    display: grid;
+    grid-template-areas: "a b c";
+    grid-template-columns: 1fr 5fr 1fr;
+}
+header>div:nth-child(1)
+{
+    background-color: #393448;
+    grid-area: a;
+}
+header>div:nth-child(2){
+    background-color: #bef4ff;
+    grid-area: b;
+}
+header>div:nth-child(3){
+    background-color: #008488;
+    grid-area: c;
+}
+
+nav{
+    background-color: #28d94d;
+    height: 5%;
+}
+section{
+    background-color: #df1910 ;
+    height: 70%;
+    display: grid;
+    grid-template-areas: 
+    "a b c"
+    "a h c"
+    "g h i"
+    ;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 2fr 1fr 2fr;
+}
+section>div:nth-child(1){
+    background-color: #484251;
+    grid-area: a;
+}
+section>div:nth-child(2){
+    background-color: #ebedf1;
+    grid-area: b;
+}
+section>div:nth-child(3){
+    background-color: #544d68;
+    grid-area: c;
+}
+section>div:nth-child(4){
+    background-color: #df1999;
+    grid-area: g;
+}
+section>div:nth-child(5){
+    background-color: #a3b7a3;
+    grid-area: h;
+}
+section>div:nth-child(6){
+    background-color:#0e2F44 ;
+    grid-area: i;
+}
+
+footer{
+    background-color: #1032df ;
+    height: 10%;
+}

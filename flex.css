@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    /* border: solid 1px #000; */
+    height: 15vh;
+    justify-content: space-around;
+}
+header div:first-child{
+    background-color: #FF5733;
+    flex: 1;
+}
+header div:nth-child(2){
+    background-color: #4db6ac;
+    flex: 3;
+}
+header div:nth-child(3){
+    background-color: #ffff00;
+    flex: 1;
+}
+/* barre de navigation */
+nav{
+    height:8vh;
+    width: 100%;
+    background-color: #1949aa;   
+}
+/* milieu */
+section{
+    display: flex;
+}
+section>div:first-child div:first-child{
+    background-color: #fdef0e;
+    height: 45vh;
+
+}
+
+section>div:first-child div:last-child{
+    background-color: #b623c8;
+    height: 20vh;
+}
+section>div:nth-child(2) div:nth-child(1){
+    background-color: #128489;
+    height: 32.5vh;
+}
+
+section>div:nth-child(2) div:nth-child(2){
+    background-color: #b91212;
+    height: 32.5vh;
+
+}
+section>div:nth-of-type(3) div:first-child{
+    background-color: #f9f;
+    height: 45vh;
+
+}
+section>div:nth-of-type(3) div:nth-child(2){
+    background-color: #ed4d26;
+    height: 20vh;
+
+}
+section>div:nth-child(1){
+    flex: 1;
+}
+section>div:nth-child(2){
+    flex: 3;
+}
+
+section>div:nth-child(3){
+    flex: 1;
+}
+footer{
+    background-color: #484848;
+    height: 12vh;
+}
